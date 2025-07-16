@@ -29,7 +29,14 @@ h1{
 
 svg{
     width: 15px;
+    cursor: pointer;
 }
+.addtask{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 .task{
     background-color: white;
