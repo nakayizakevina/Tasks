@@ -1,0 +1,68 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/bg.jpeg);
+    background-size: cover;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    color: white;
+    letter-spacing: 5px;
+}
+
+svg{
+    width: 15px;
+}
+
+.task{
+    background-color: white;
+    border-radius: 2px;
+    color: grey;
+    padding: 8px;
+}
+
+input{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: small;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.nav :hover{
+    color: blue;
+}
+
+
+ul{
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
