@@ -10,7 +10,7 @@
     <main>
       <section class="heading">
         <h1>TODO</h1>
-        <svg 
+        <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -23,8 +23,9 @@
         </svg>
       </section>
       <div class="task addtask">
-        <input type="text" class="inputfield" placeholder="Create a new todo..." />
-        <svg id="save"
+        <input type="text" id="inputfield" placeholder="Create a new todo..." />
+        <svg
+          id="save"
           xmlns="http://www.w3.org/2000/svg"
           width="12"
           height="12"
@@ -36,8 +37,10 @@
           />
         </svg>
       </div>
-      <section class="task tasklist">
-        <div class="nav">
+
+      <section class="task">
+        <li id="tasklist"></li>
+        <nav class="nav">
           <p>5 items left</p>
           <ul>
             <li>All</li>
@@ -45,7 +48,7 @@
             <li>Completed</li>
           </ul>
           <p>Clear Completed</p>
-        </div>
+        </nav>
       </section>
       <footer>Drag and drop to recorder list</footer>
     </main>
